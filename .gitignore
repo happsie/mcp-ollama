@@ -1,0 +1,36 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+build/
+dist/
+
+# Node/React (web)
+web/node_modules/
+web/dist/
+web/.vite/
+
